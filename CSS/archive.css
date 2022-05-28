@@ -1,0 +1,172 @@
+
+.zerogrid{
+    width: 1400px;
+    height: 800px;
+    background-image: linear-gradient(rgb(239, 187, 88),rgb(241, 218, 168));
+    position: relative;
+}
+.wrap-header{
+width: 1200px;
+margin-top: 60px;
+margin-left: 100px;
+background-image:  linear-gradient(rgb(176, 112, 62),rgb(241, 218, 168));
+height: 700px;
+position: absolute;
+
+}
+.wrap-body{
+    background-attachment: fixed;
+    width: 1330px;
+    /* height: 870px; */
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    /* background-color: yellow */
+}
+.shell{
+    display: flex;
+    justify-content: center;
+}
+.button,.portrait{
+    background-color: rgb176, 112, 62);
+    width: 170px;
+    height: 65px;
+    text-align: center;
+   line-height: 65px;
+   transition: .3s;
+   cursor: pointer;
+   font-size: 25px;
+}
+.portrait::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(30px,-30px);
+ background-image: url(../img/头像.jpg);
+    background-size: cover;
+    border: 10px solid #fff;
+}
+.information{
+    transform: translate(-20px,-200px);
+    border-radius: 10px;
+    padding: 20px 0;
+    line-height: 0;
+    height: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.button:hover{
+    background-color: rgb(217,228,138);
+}
+.button li:hover{
+    background-color: rgb(210,220,221);
+}
+.button ul li{
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(-65px);
+    background-color: rgb(210,220,221);
+}
+.button:hover li{
+    height: 65px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.portrait:hover .information{
+    opacity: 1;
+    line-height: 65px;
+    transform: translate(-20px,-10px);
+    height: auto;
+}
+.nav li:hover{
+    background-color: rgb(217,228,138);
+}
+.atupian{
+    width: 1200px;
+    background-color: #F4BBBB;
+}
+.atupian img{
+    width: 1200px;
+    height: 520px;
+}
+
+.touming{
+    width: 1519.2px;
+    height: 450px;
+    background-color: transparent;
+    background-attachment: fixed;
+    background-image: url(../img/beijing6.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 1330px;
+    margin: 0 auto;
+    /* height: 870px; */
+   padding-top: 200px;
+    background-repeat: no-repeat;
+    /* background-color: yellow */
+    /* background-color: rgb(164,209,144); */
+    /* opacity: 1; */
+    /* background-color: seagreen; */
+ }
+ .touming1{
+     width: 230px;
+     height: 50px;
+     transition: .9s;
+     border-radius: 9px;
+     background-color: rgba(30,32,33,.6);
+     margin: 0 auto;
+    font-size: large;
+    font-size: 30px;
+     text-align: center;
+     color: white;
+ }
+.zg{
+    width: 1519.2;
+    height: 1590px;
+    background-color: rgb(241, 218, 168);
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.one{
+    width: 1400px;
+    height: 370px;
+    /* background-color: rgb(212,242,123); */
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    margin-top: 20px;
+}
+.a{
+    width: 370px;
+    height: 370px;
+    background-color: royalblue;
+}
+.a img{
+    width: 100%;
+    height: 100%;
+}
+.b{
+    width: 800px;
+    height: 370px;
+    background-color: #fff;
+    color: black;
+    padding-top: 140px;
+    font-size: 30px;
+    /* padding-top: 70px;
+    padding-left: 30px; */
+    text-align: center;
+}
+.c img{
+    width: 370px;
+    height: 370px;
+}
+.wbb{
+    width: 1519.2px;
+    height: 100px;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 25px;
+    padding-top: 40px;
+}
